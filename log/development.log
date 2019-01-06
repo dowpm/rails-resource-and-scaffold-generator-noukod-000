@@ -165,3 +165,79 @@ Migrating to CreateArticles (20190106183716)
   [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20190106183716"]]
   [1m[36m (4.1ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/articles" for 190.115.182.155 at 2019-01-06 18:44:47 +0000
+Cannot render console from 190.115.182.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 1042ms (Views: 1028.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 190.115.182.155 at 2019-01-06 18:44:48 +0000
+Cannot render console from 190.115.182.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-7da41936fff1aba083bc58e53351f7a5fdcc3a757ef6146d34b14afdd201e08f.css?body=1" for 190.115.182.155 at 2019-01-06 18:44:48 +0000
+Cannot render console from 190.115.182.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 190.115.182.155 at 2019-01-06 18:44:48 +0000
+Cannot render console from 190.115.182.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 190.115.182.155 at 2019-01-06 18:44:48 +0000
+Cannot render console from 190.115.182.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 190.115.182.155 at 2019-01-06 18:44:48 +0000
+Cannot render console from 190.115.182.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 190.115.182.155 at 2019-01-06 18:44:48 +0000
+Cannot render console from 190.115.182.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.115.182.155 at 2019-01-06 18:44:48 +0000
+Cannot render console from 190.115.182.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 190.115.182.155 at 2019-01-06 18:44:49 +0000
+Cannot render console from 190.115.182.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/articles/new" for 190.115.182.155 at 2019-01-06 18:45:01 +0000
+Cannot render console from 190.115.182.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (54.5ms)
+  Rendered articles/new.html.erb within layouts/application (60.7ms)
+Completed 200 OK in 83ms (Views: 77.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 190.115.182.155 at 2019-01-06 18:45:07 +0000
+Cannot render console from 190.115.182.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 190.115.182.155 at 2019-01-06 18:45:31 +0000
+Cannot render console from 190.115.182.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (1.5ms)
+  Rendered articles/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 190.115.182.155 at 2019-01-06 18:45:51 +0000
+Cannot render console from 190.115.182.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hCwC5gXxzRMoOWxH7UPw6k6N2htMh94+tbz86g18yTPN8up1OWSluxHWAVPb5sEyup8sKbTl4SrWgT/nEvgJMA==", "article"=>{"title"=>"the flash", "body"=>"tv shows prefered"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "the flash"], ["body", "tv shows prefered"], ["created_at", "2019-01-06 18:45:51.985498"], ["updated_at", "2019-01-06 18:45:51.985498"]]
+  [1m[35m (74.0ms)[0m  commit transaction
+Redirected to http://165.227.31.156:45325/articles/1
+Completed 302 Found in 82ms (ActiveRecord: 74.4ms)
